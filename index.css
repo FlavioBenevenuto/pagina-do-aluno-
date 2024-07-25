@@ -1,0 +1,50 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Faz com que o body ocupe a altura total da viewport */
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center; /* Centraliza o texto dentro do header */
+    width: 100%; /* Faz com que o header ocupe 100% da largura */
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header .foto-estudante {
+    margin-top: 20px;
+    max-width: 200px; /* Ajuste este valor conforme necessário */
+    height: auto;
+    border-radius: 50%; /* Deixa a imagem redonda, se for um retrato */
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Largura das seções */
+    max-width: 800px; /* Largura máxima das seções */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
